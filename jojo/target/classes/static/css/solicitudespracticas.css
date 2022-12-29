@@ -1,0 +1,26 @@
+.themed-grid-col {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: rgba(86, 61, 124, .15);
+  border: 1px solid rgba(86, 61, 124, .2);
+}
+
+
+main {
+  height: 100vh;
+  height: -webkit-fill-available;
+  max-height: 60vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+
+.scrollarea {
+  overflow-y: auto;
+}
+
+.lupa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

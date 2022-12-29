@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es" 
+      xmlns:th="http://thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout/layout.html}">
+    <head>
+
+        <title>Menú Alumno</title>
+
+    </head>
+    <body>
+
+        <main layout:fragment="content">
+
+            <div class="container position-absolute top-50 start-50 translate-middle">
+                
+                <h2 class="text-center">Informe de prácticas</h2>
+    <div class="row mb-3 text-center" style="padding:1%">
+      <div class="col-md-3 "></div>
+      <div class="col-md-6 "></div>
+      <div class="col-md-3 ">
+        <input
+          class="form-control"
+          placeholder="🔍"
+        />
+      </div>
+    </div>
+    <div class="row mb-3 text-center">
+      <div class="col-md-12 " style="padding:5%">
+        <table class="table table-bordered">
+          <thead class="table-warning">
+            <tr>
+              <th scope="col">Alumno</th>
+              <th scope="col">Empresa</th>
+              <th scope="col">Práctica Realizada</th>
+              <th scope="col">Nota</th>
+              <th scope="col">Desc</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Alumno 1</td>
+              <td>Empresa 4</td>
+              <td>Diseño web y C/S</td>
+              <td>9</td>
+              <td>📁</td>
+            </tr>
+            <tr>
+              <td>Alumno 3</td>
+              <td>Empresa 10</td>
+              <td>Ingeniero de software</td>
+              <td>7,75</td>
+              <td>📁</td>
+            </tr>
+            <tr>
+              <td>Alumno 10</td>
+              <td>Empresa 6</td>
+              <td>ML y IA</td>
+              <td>8</td>
+              <td>📁</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- Regresar -->
+    <div class="row mb-3 text-center">
+      <div class="col-md-4 ">
+        <a href="#" type="button" class="btn btn-primary"> Página principal 🔙 </a>
+      </div>
+      <div class="col-md-4 "></div>
+      <div class="col-md-4 "></div>
+    </div>
+            </div>
+        </main>
+    </body>
+</html>

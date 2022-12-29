@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es" 
+xmlns:th="http://thymeleaf.org"
+xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantilla</title>
+    <link  th:href="@{/css/bootstrap.css}" rel="stylesheet"/>
+    <link th:href="@{/css/styleiniciosesion.css}" rel="stylesheet" />
+    <link th:href="@{/css/stylemenuresponsable.css}" rel="stylesheet" />
+    <link th:href="@{/css/informedepracticas.css}" rel="stylesheet" />
+    <link th:href="@{/css/informedepracticas2.css}" rel="stylesheet" />
+    <link th:href="@{/css/solicitudespracticas.css}" rel="stylesheet" />
+    <link th:href="@{/css/informeasignacion.css}" rel="stylesheet" />
+    <script type="text/javascript" th:src="@{/js/bootstrap.bundle.js}"></script>
+
+    <style>
+        body /*Color de fondo*/
+        {
+            background-color: beige;
+        } 
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <span class="fs-2">App Prácticas</span>
+            </a>
+
+            <ul class="nav nav-pills nav-fill">
+                <li class="nav-item p-2">
+                    <a href="#" class="nav-link active" aria-current="page">Menú</a>
+                </li>
+                <li class="nav-item p-2">
+                    <a href="#" class="nav-link active">Cerrar sesión</a>
+                </li>
+            </ul>
+        </header>
+    </div>
+
+    <main layout:fragment="content">
+
+        <p>Contenido Aqui</p>
+
+    </main>
+
+</body>
+</html>

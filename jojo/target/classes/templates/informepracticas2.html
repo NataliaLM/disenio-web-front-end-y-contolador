@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es" 
+      xmlns:th="http://thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout/layout.html}">
+    <head>
+
+        <title>Menu Alumno</title>
+
+    </head>
+    <body>
+
+        <main layout:fragment="content">
+
+            <div class="container position-absolute top-50 start-50 translate-middle">
+                <h2 class="text-center"style="padding-top: 80px">Informe de prácticas 2</h2>
+                <div class="row mb-3 text-center">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8" style="padding:4%">
+                        <table class="table table-bordered">
+                            <thead class="table-warning">
+                                <tr>
+                                    <th colspan="2">Informe de prácticas</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Nombre</th>
+                                    <td>Alumno3</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Correo electrónico</th>
+                                    <td>alumno3@edu.uah.es</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Prácticas</th>
+                                    <td>Ingeniero de software</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Empresa</th>
+                                    <td>Empresa 10</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Tutor</th>
+                                    <td>Benito Martin</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Fechas</th>
+                                    <td>10/01/2023 - 25/04/2023</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Nota</th>
+                                    <td>7.75</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Observaciones</th>
+                                    <td>Trabajador y puntual</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-2 lupa">
+                        <a href="#" type="button" class="btn btn-primary">
+                            📄 Generar informe en CSV
+                        </a>
+                    </div>
+                </div>
+                <div class="row mb-3 text-center">
+                    <div class="col-md-4">
+                        <a href="#" type="button" class="btn btn-primary">
+                            Atrás 🔙
+                        </a>
+                    </div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
